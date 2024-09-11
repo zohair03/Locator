@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+
+
+p {
+    font-size: 18px;
+}
+
+label,
+input {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#locationList {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+
+
+h1 {
+    margin: 8px;
+    align-content: center;
+
+}
+
+label {
+    margin-right: 0px;
+}
+
+input {
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 2rem;
+    padding: 14px 20px;
+}
+
+button {
+    border-radius: 2rem;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.locatorheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.locationsCard {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.locationsCard>* {
+    border-radius: 7px;
+    background-color: #4CAF50;
+    color: black;
+    font-weight: bold;
+}
+
+.latiandlongi {
+    color: #4acd50;
+}
+
+footer button {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 0px;
+    border: 0px;
+    margin-bottom: 2px;
+}
+
+footer button a {
+    color: blueviolet;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer div {
+    margin-top: 1rem;
+
+}
+
+footer div p {
+    margin-top: 0px;
+}
+
+footer {
+    height: 70px;
+    background-color: azure;
+    text-align: center;
+    align-content: center;
+    border-top: 2px solid black;
+}

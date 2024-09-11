@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save Custom Locations</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcolNsZngvwCgOtYatRCn_shtJg8poRrQ"
+      async
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="locatorheader">
+      <h1>Locator</h1>
+      <button onclick="getLocation()">Enable Location</button>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="info">
+      <p>Latitude: <span class="latiandlongi" id="lat"></span></p>
+      <p>Longitude: <span class="latiandlongi" id="lng"></span></p>
+
+      <hr />
+
+      <label for="locationName">Place Name: </label>
+      <input
+        type="text"
+        id="locationName"
+        placeholder="Enter name for this location"
+      />
+
+      <button id="addLocation" onclick="addLocation()">Add a place</button>
+    </div>
+
+    <hr />
+
+    <div id="locationList">
+      <h2>Saved Locations:</h2>
+      <ul class="locationsCard" id="locations">
+        <li>Eg. GYM -Lat: 19.04436,Lng: 72.859417</li>
+        <li>Eg. Home -Lat: 19.04436,Lng: 72.859417</li>
+        <li>Eg. Work -Lat: 19.04436,Lng: 72.859417</li>
+        <li>Eg. College -Lat: 19.04436,Lng: 72.859417</li>
+        <li>Eg. Friend -Lat: 19.04436,Lng: 72.859417</li>
+        <li>Eg. Uni -Lat: 19.04436,Lng: 72.859417</li>
+        <li>Eg. Shop -Lat: 19.04436,Lng: 72.859417</li>
+        <li>Eg. School -Lat: 19.04436,Lng: 72.859417</li>
+      </ul>
+    </div>
+
+    <footer>
+      <div>
+        <button><a href="https://github.com/zohair03">Git Hub</a></button>
+        <button>
+          <a href="zohairrahmed03@gmail.com">zohairrahmed03@gmail.com</a>
+        </button>
+        <button>
+          <a href="linkedin.com/in/zohair-ahmad-262425229">Linkdin</a>
+        </button>
+        <button><a href="https://x.com/zohair_03">Twitter</a></button>
+        <p>© 2024 Locator. Made by Zohair Ahmad</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- API Key: AIzaSyDcolNsZngvwCgOtYatRCn_shtJg8poRrQ -->
